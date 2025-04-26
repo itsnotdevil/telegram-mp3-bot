@@ -3,7 +3,7 @@ import subprocess
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
 
-BOT_TOKEN = os.getenv('7532011979:AAGk4o7BkdactJz6WoEuXUFpk-uBM1T0F6s')
+BOT_TOKEN = os.getenv(7532011979:AAGk4o7BkdactJz6WoEuXUFpk-uBM1T0F6s)
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("🎶 Send me a YouTube URL and I'll send you the MP3!")
